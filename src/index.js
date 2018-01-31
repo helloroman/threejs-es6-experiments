@@ -4,8 +4,15 @@ import { Animation as Animation_00 } from "./Anim_00/animation";
 import { Animation as Animation_01 } from "./Anim_01/animation";
 import { Animation as Animation_02 } from "./Anim_02/animation";
 import { Animation as Animation_03 } from "./Anim_03/animation";
+import { Animation as Animation_04 } from "./Anim_04/animation";
 
-const animations = [Animation_00, Animation_01, Animation_02, Animation_03];
+const animations = [
+  Animation_00,
+  Animation_01,
+  Animation_02,
+  Animation_03,
+  Animation_04
+];
 
 const menu = document.querySelector(".menu");
 
