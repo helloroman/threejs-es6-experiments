@@ -1,0 +1,27 @@
+body {
+  background: #f1f1f1;
+}
+
+ul {
+  padding: 0;
+}
+
+.menu__item {
+  display: inline-block;
+  margin-left: 10px;
+  font-family: Helvetica, Arial, sans-serif;
+  color: #111111;
+  cursor: pointer;
+  padding: 5px;
+  transition: 0.2s ease-in;
+  font-weight: 700;
+}
+
+.menu__item:nth-child(even) {
+  color: #777;
+}
+
+.menu__item:hover {
+  transform: translateY(-1px);
+  color: #222222;
+}
